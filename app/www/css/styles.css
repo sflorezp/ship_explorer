@@ -1,0 +1,21 @@
+body {
+  margin: 0 !important;
+  background: #F4F4F4 !important;
+}
+
+tspan {
+  font-family: "Source Sans Pro";
+}
+
+@media screen and (min-width: 845px) {
+  #mapPlot-mapPlot {
+    height: calc(83vh - 66px) !important;
+  }
+}
+
+.shiny-output-error { visibility: hidden; }
+.shiny-output-error:before { visibility: hidden; }
+
+.chart-container .highcharts-grid {
+   display: none;
+}
